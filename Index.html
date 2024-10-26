@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrimeClassifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CrimeClassifier</h1>
+        <nav>
+            <a href="signup.html">Sign Up</a>
+            <a href="login.html">Login</a>
+            <a href="#about">About Us</a>
+        </nav>
+    </header>
+
+    <section id="search">
+        <h2>Search Crime Classification</h2>
+        <input type="text" id="crimeInput" placeholder="Enter crime name..." />
+        <button onclick="searchCrime()">Search</button>
+        <div id="result"></div>
+    </section>
+
+    <section id="plans">
+        <h2>Choose Your Plan</h2>
+        <div class="plan">
+            <h3>Pro Plan - ₹59/month</h3>
+            <p>Access basic crime classifications and case studies.</p>
+            <button onclick="buyPlan('pro')">Buy Pro</button>
+        </div>
+        <div class="plan">
+            <h3>UltraPro Plan - ₹139/month</h3>
+            <p>Get comprehensive crime data, expert case studies, and more.</p>
+            <button onclick="buyPlan('ultraPro')">Buy UltraPro</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>CrimeClassifier is your go-to platform for crime analysis and classification. We provide accurate legal insights, case studies, and more to help law professionals and students.</p>
+    </section>
+
+    <section id="case-study">
+        <h2>Case Studies</h2>
+        <p>Explore all case studies up to 2024, related to crime classification in Indian law.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
